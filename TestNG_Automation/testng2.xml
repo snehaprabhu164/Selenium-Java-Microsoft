@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="App Test">
+		<classes>
+			<!-- <class name="NG_Auto.DemoNG" />-->
+			<class name="NG_Auto.Annotations"/>
+			<!--  <methods>
+          <exclude name="LoginApp"/>
+        </methods>-->
+			<!--     <methods>
+          <include name="LoginApp"/>
+        </methods>-->
+			<!-- <methods>
+				<exclude name="WebLoginHome" />
+				<exclude name="WebLoginHome1" />
+				<exclude name="WebLoginHome2" />
+			</methods>-->
+			<!-- <methods>
+				<exclude name="WebLogin.*" />
+			</methods>-->
+		</classes>
+	</test>
+</suite>
